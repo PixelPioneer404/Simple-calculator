@@ -62,6 +62,12 @@ Launch the Electron app pointing at your local files:
 npm run start
 ```
 
+### 5. Generate the build  
+Generate the .exe file of the calculator:  
+```bash
+npm run build
+```
+
 
 > *Note*: npm run start should map to something like  
 > json
@@ -70,7 +76,7 @@ npm run start
 > }
 > 
 
-### 5. Package for distribution  
+### 6. Package for distribution  
 Create your executable in dist/:  
 bash
 npm run build
