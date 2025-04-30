@@ -8,17 +8,17 @@
 ## 📂 Repository Structure
 
 
-├── .gitignore
-├── README.md
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── input.css
-├── output.css
-├── index.html
-├── script.js
-├── main.js             # Electron entry point
-└── dist/               # ⚠ Build output (ignored in Git)
+├── .gitignore<br>
+├── README.md<br>
+├── package.json<br>
+├── tailwind.config.js<br>
+├── postcss.config.js<br>
+├── input.css<br>
+├── output.css<br>
+├── index.html<br>
+├── script.js<br>
+├── main.js             # Electron entry point<br>
+└── dist/               # ⚠ Build output (ignored in Git)<br>
 
 
 - *input.css* — your Tailwind directives (@import "tailwindcss";)  
@@ -32,14 +32,16 @@
 ## 🚀 Quickstart
 
 ### 1. Clone the repo  
-bash
-git clone https://github.com/<your-username>/simple-calculator.git
+```bash
+git clone https://github.com/pixelpioneer404/simple-calculator.git
 cd simple-calculator
+```
 
 
 ### 2. Install dependencies  
-bash
+```bash
 npm install
+```
 
 
 This will install:  
@@ -49,14 +51,16 @@ This will install:
 
 ### 3. Build your CSS  
 Compile Tailwind from input.css → output.css (with watcher):  
-bash
+```bash
 npx @tailwindcss/cli -i ./input.css -o ./output.css --watch
+```
 
 
 ### 4. Run in development  
 Launch the Electron app pointing at your local files:  
-bash
+```bash
 npm run start
+```
 
 
 > *Note*: npm run start should map to something like  
