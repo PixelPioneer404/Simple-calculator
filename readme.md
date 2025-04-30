@@ -62,7 +62,7 @@ Launch the Electron app pointing at your local files:
 npm run start
 ```
 
-### 5. Generate the build  
+### 5. Generate the build (optional)
 Generate the .exe file of the calculator:  
 ```bash
 npm run build
