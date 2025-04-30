@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="scrollbar-hide">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE-CALCULATOR</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-slate-900 p-[10px] scrollbar-hide m-0">
+    <div class="px-3 py-3 w-[300px] h-[430px] rounded-[35px] shadow-[0 0 6px black] bg-gray-300 flex flex-col justify-center items-center gap-2.5">
+        <div class="bg-white w-full h-[15%] rounded-[30px] shadows-[0 0 5px 5px black] px-4 flex flex-row-reverse items-center relative">
+            <p contenteditable="ture" class="answer overflow-x-auto whitespace-nowrap scrollbar-hide outline-none w-1/2 h-auto text-right font-sans text-2xl font-semibold"></p>
+            <button data-choice="AC" class="calc-btn cursor-pointer font-sans text-md font-medium absolute left-1.5 h-[80%] aspect-square rounded-full bg-gray-300 hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">AC</button>
+        </div>
+        <div class="bg-white w-full h-[85%] rounded-[30px] shadows-[0 0 5px 5px black] grid grid-cols-4 grid-rows-5 gap-2 p-3">
+
+            <button data-choice="CLEAR" class="calc-btn col-span-2 bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">CLEAR</button>
+            <button data-choice="/" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">/</button>
+            <button data-choice="*" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">*</button>
+
+            <button data-choice="7" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">7</button>
+            <button data-choice="8" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">8</button>
+            <button data-choice="9" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">9</button>
+            <button data-choice="+" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">+</button>
+
+            <button data-choice="4" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">4</button>
+            <button data-choice="5" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">5</button>
+            <button data-choice="6" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">6</button>
+            <button data-choice="-" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">-</button>
+
+            <button data-choice="1" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">1</button>
+            <button data-choice="2" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">2</button>
+            <button data-choice="3" class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">3</button>
+            <button data-choice="=" class="calc-btn row-span-2 bg-gray-900 text-white rounded-full cursor-pointer font-sans text-md font-medium hover:bg-gray-950 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">=</button>
+
+            <button data-choice="." class="calc-btn bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium aspect-square hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">.</button>
+            <button data-choice="0" class="calc-btn col-span-2 bg-gray-300 rounded-full cursor-pointer font-sans text-md font-medium hover:bg-gray-400 trainsition-all duration-300 ease-in-out shadow-[0 0 10px black]">0</button>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
